@@ -61,8 +61,7 @@ public class MailUtils {
         mailSender.send(mimeMessage);
     }
 
-    public String sendCode(String email,String userName,String password){
-        int code = (int) ((Math.random() * 9 + 1) * 100000);
+    public String sendCode(String email, String userName, String password, String code){
         logger.info("开始发送复杂邮件...");
         logger.info("mailSender对象为:"+mailSender);
         MimeMessage mimeMessage = mailSender.createMimeMessage();

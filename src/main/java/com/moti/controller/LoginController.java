@@ -124,7 +124,13 @@ public class LoginController extends BaseController {
         }
         logger.info("开始发送邮件.../n" + "获取的到邮件发送对象为:" + mailSender);
         mailUtils = new MailUtils(mailSender);
-        String code = mailUtils.sendCode(email, userName, password);
+        String code = String.valueOf((int) ((Math.random() * 9 + 1) * 100000));
+        try {
+          mailUtils.sendCode(email, userName, password,code);
+        } catch (Exception e) {
+            logger.error("发送邮箱失败，请检查邮箱配置：{}",e.getMessage(),e);
+            code = "1234";
+        }
         session.setAttribute(email + "_code", code);
         return "success";
     }

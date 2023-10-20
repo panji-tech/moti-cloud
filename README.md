@@ -54,18 +54,3 @@
 
 [使用Docker部署SpringBoot应用](https://www.bilibili.com/video/av88690709)
 
-### 欢迎关注我的B站账号
-
-[我是莫提](https://space.bilibili.com/301320288)
-
-[我的个人博客](http://xuewei.world)
-
-
-
-### 写在最后
-
-由于技术有限，难免会有一些设计不合理之处，有好的想法，欢迎在b站私信交流！
-
-**开源不易，请作者喝杯咖啡吧~☕**
-
-![](http://xuewei.world:8000/wp-content/uploads/2020/06/image-219x300.png)
