@@ -34,7 +34,7 @@ public class FtpUtil {
      */
     private static String PASSWORD = "root";
     /**
-     * FTP服务器基础目录
+     * FTP服务器基础目录,不要配置这个！！！！！！！，配置了会有BUG
      */
     private static String BASEPATH = "";
     /**

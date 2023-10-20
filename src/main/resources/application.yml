@@ -6,6 +6,7 @@ server:
       timeout: 60m
   tomcat:
     uri-encoding: UTF-8
+  port: 8080
 # 日志的存放位置与级别
 logging:
   file:
