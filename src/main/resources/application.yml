@@ -42,7 +42,7 @@ spring:
     # 配置数据源
     username: root
     password: root
-    url: jdbc:mysql://127.0.0.1:3306/moti-cloud?serverTimezone=Hongkong&useAffectedRows=true
+    url: jdbc:mysql://127.0.0.1:3306/moti-cloud?serverTimezone=Hongkong&useAffectedRows=true&useUnicode=true&characterEncoding=utf8
     driver-class-name: com.mysql.cj.jdbc.Driver
     type: com.alibaba.druid.pool.DruidDataSource
     # 配置druid数据源
